@@ -5,7 +5,7 @@
 2. ✅ Sistema cria uma data para ser armazenada no Cache
 3. ✅ Sistema apaga os dados do Cache atual
 4. ✅ Sistema grava os novos dados no Cache
-5. Sistema não retorna nenhum erro
+5. ✅ Sistema não retorna nenhum erro
 
 > ## Exceção - Erro ao apagar dados do cache
 1. ✅ Sistema não grava os novos dados do Cache
