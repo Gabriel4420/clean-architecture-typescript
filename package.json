@@ -2,6 +2,9 @@
   "name": "Clean-Architecture-Typescript",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "jest --no-cache --watchAll"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^28.1.4",
