@@ -3,7 +3,7 @@ import { SavePurchases, LoadPurchases } from '@/domain/useCases'
 
 export class LocalLoadPurchases implements SavePurchases, LoadPurchases {
   private readonly key = 'purchases'
-  
+
   constructor(
     private readonly cacheStore: CacheStore,
     private readonly timestamp: Date,
@@ -18,8 +18,8 @@ export class LocalLoadPurchases implements SavePurchases, LoadPurchases {
 
   async loadAll(): Promise<Array<LoadPurchases.Result>> {
     try {
-      this.cacheStore.fetch(this.key)
-
+      const cache = this.cacheStore.fetch(this.key)
+      return cache.value
     } catch (error) {
       this.cacheStore.delete(this.key)
       return []
