@@ -32,7 +32,7 @@
 
 ## :dart: Sobre
 
-Sobre o seu projeto
+Projeto de estudo sobre BDD (Behavior Driven Development), Clean Archtecture e Tests com Jest, no qual simula uma funcionalidade de api de um possivel sistema de e-commerce que carrega uma lista de compras offline com cache.
 
 ## :sparkles: Funcionalidades
 
